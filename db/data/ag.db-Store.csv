@@ -1,0 +1,11 @@
+ID,storeName,location,createdAt,createdBy,modifiedAt,modifiedBy
+4395903a-3f6d-477a-9101-23ab6f5a16d0,storeName-4395903,location-4395903,2012-07-25T00:00:00.000Z,createdBy.2m7wf@example.net,2010-06-13T00:00:00.000Z,modifiedBy.2m7wf@example.net
+43959041-5253-46fd-ad6d-4d37942e171d,storeName-4395904,location-4395904,2017-02-09T00:00:00.000Z,createdBy.2m7wg@example.org,2013-08-22T00:00:00.000Z,modifiedBy.2m7wg@example.net
+43959052-dd16-41c7-af85-62c9e8a6f0be,storeName-4395905,location-4395905,2013-04-26T00:00:00.000Z,createdBy.2m7wh@example.com,2011-12-09T00:00:00.000Z,modifiedBy.2m7wh@example.com
+43959063-805a-419e-93c3-0a2d93684d0b,storeName-4395906,location-4395906,2014-11-10T00:00:00.000Z,createdBy.2m7wi@example.org,2001-04-14T00:00:00.000Z,modifiedBy.2m7wi@example.com
+4395907d-6452-4274-8db9-3ee778aa397c,storeName-4395907,location-4395907,2002-05-14T00:00:00.000Z,createdBy.2m7wj@example.org,2019-02-11T00:00:00.000Z,modifiedBy.2m7wj@example.org
+43959081-067a-485e-ad27-9b0d0b8405d1,storeName-4395908,location-4395908,2009-08-22T00:00:00.000Z,createdBy.2m7wk@example.net,2008-10-04T00:00:00.000Z,modifiedBy.2m7wk@example.com
+43959094-9fd0-48dd-a77d-8bdd1207ab8b,storeName-4395909,location-4395909,2019-01-04T00:00:00.000Z,createdBy.2m7wl@example.com,2021-08-17T00:00:00.000Z,modifiedBy.2m7wl@example.org
+4395910a-fcc3-468e-a1a7-2abd970cb175,storeName-4395910,location-4395910,2009-01-02T00:00:00.000Z,createdBy.2m7wm@example.net,2012-01-28T00:00:00.000Z,modifiedBy.2m7wm@example.org
+4395911f-f56c-4d64-82e8-78a96ec8a204,storeName-4395911,location-4395911,2017-01-20T00:00:00.000Z,createdBy.2m7wn@example.net,2008-05-09T00:00:00.000Z,modifiedBy.2m7wn@example.com
+43959127-e3c4-47fd-be99-3fc34c006b5b,storeName-4395912,location-4395912,2023-05-17T00:00:00.000Z,createdBy.2m7wo@example.org,2023-01-17T00:00:00.000Z,modifiedBy.2m7wo@example.org

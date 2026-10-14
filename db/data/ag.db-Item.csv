@@ -1,0 +1,11 @@
+ID,itemName,store_ID,createdAt,createdBy,modifiedAt,modifiedBy
+27851958-e8fc-4ae3-8523-79cedfacae1d,itemName-27851958,43959081-067a-485e-ad27-9b0d0b8405d1,2000-07-13T00:00:00.000Z,createdBy.gkypi@example.org,2004-11-22T00:00:00.000Z,modifiedBy.gkypi@example.com
+27851959-8ef4-40a5-8dca-3573240a7803,itemName-27851959,43959094-9fd0-48dd-a77d-8bdd1207ab8b,2011-10-18T00:00:00.000Z,createdBy.gkypj@example.net,2011-10-24T00:00:00.000Z,modifiedBy.gkypj@example.net
+27851960-854b-4a23-933d-ebc98378c11e,itemName-27851960,4395910a-fcc3-468e-a1a7-2abd970cb175,2006-06-23T00:00:00.000Z,createdBy.gkypk@example.net,2022-08-15T00:00:00.000Z,modifiedBy.gkypk@example.net
+27851961-0a9c-4acb-aa24-a459e8336735,itemName-27851961,4395911f-f56c-4d64-82e8-78a96ec8a204,2020-03-05T00:00:00.000Z,createdBy.gkypl@example.com,2023-07-09T00:00:00.000Z,modifiedBy.gkypl@example.com
+27851962-2d6d-4302-927a-2e874191807e,itemName-27851962,43959127-e3c4-47fd-be99-3fc34c006b5b,2006-06-26T00:00:00.000Z,createdBy.gkypm@example.org,2013-03-26T00:00:00.000Z,modifiedBy.gkypm@example.net
+27851963-b3e4-4ebb-a826-13d33eecad03,itemName-27851963,4395903a-3f6d-477a-9101-23ab6f5a16d0,2014-04-29T00:00:00.000Z,createdBy.gkypn@example.com,2006-10-28T00:00:00.000Z,modifiedBy.gkypn@example.org
+27851964-d5e8-4280-876a-146945a76688,itemName-27851964,43959041-5253-46fd-ad6d-4d37942e171d,2014-07-22T00:00:00.000Z,createdBy.gkypo@example.com,2022-10-17T00:00:00.000Z,modifiedBy.gkypo@example.net
+27851965-b5d0-4f3a-afcf-b83d39fc15c4,itemName-27851965,43959052-dd16-41c7-af85-62c9e8a6f0be,2023-10-09T00:00:00.000Z,createdBy.gkypp@example.net,2002-10-17T00:00:00.000Z,modifiedBy.gkypp@example.org
+27851966-d2dd-46d5-a90f-86124223abd3,itemName-27851966,43959063-805a-419e-93c3-0a2d93684d0b,2012-11-14T00:00:00.000Z,createdBy.gkypq@example.net,2019-02-03T00:00:00.000Z,modifiedBy.gkypq@example.org
+27851967-83af-4966-ba0a-3b152726c19c,itemName-27851967,4395907d-6452-4274-8db9-3ee778aa397c,2012-01-04T00:00:00.000Z,createdBy.gkypr@example.org,2007-04-25T00:00:00.000Z,modifiedBy.gkypr@example.org
