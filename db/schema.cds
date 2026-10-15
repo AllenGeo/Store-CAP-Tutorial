@@ -8,6 +8,7 @@ namespace ag.db;
 entity Item : cuid, managed {
     itemName : String;
     store    : Association to Store;
+    quantity : Integer;
 }
 
 entity Store : cuid, managed {
@@ -22,4 +23,5 @@ entity Store : cuid, managed {
 entity Bill : cuid, managed {
         number        : Integer;
     key transactionId : Association to Store;
+        amount        : Decimal(8, 2);
 }
