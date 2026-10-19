@@ -1,11 +1,6 @@
 ID,storeName,location,createdAt,createdBy,modifiedAt,modifiedBy
-43806494-3b95-4040-bf02-7550a51e3a7b,storeName-4380649,location-4380649,2014-03-07T00:00:00.000Z,createdBy.2lw4p@example.org,2005-07-11T00:00:00.000Z,modifiedBy.2lw4p@example.org
-43806500-b58b-4e98-95b5-fb1f0b1b6859,storeName-4380650,location-4380650,2015-01-06T00:00:00.000Z,createdBy.2lw4q@example.com,2023-01-04T00:00:00.000Z,modifiedBy.2lw4q@example.com
-4380651b-2cf3-4a5d-90ae-acad3bd8d6bf,storeName-4380651,location-4380651,2010-05-29T00:00:00.000Z,createdBy.2lw4r@example.com,2009-06-14T00:00:00.000Z,modifiedBy.2lw4r@example.org
-4380652c-9825-48f2-b51c-bc46153baaee,storeName-4380652,location-4380652,2002-07-12T00:00:00.000Z,createdBy.2lw4s@example.com,2021-02-12T00:00:00.000Z,modifiedBy.2lw4s@example.org
-43806538-1a6b-4bda-a957-9f3946194ab4,storeName-4380653,location-4380653,2004-09-12T00:00:00.000Z,createdBy.2lw4t@example.com,2008-07-04T00:00:00.000Z,modifiedBy.2lw4t@example.net
-43806543-b6bc-47a4-9887-3ec268955b3e,storeName-4380654,location-4380654,2007-06-27T00:00:00.000Z,createdBy.2lw4u@example.org,2018-03-23T00:00:00.000Z,modifiedBy.2lw4u@example.com
-4380655f-8ebd-4a23-8fe8-32e4b593a41f,storeName-4380655,location-4380655,2005-11-15T00:00:00.000Z,createdBy.2lw4v@example.net,2015-07-08T00:00:00.000Z,modifiedBy.2lw4v@example.org
-43806563-e4b2-4f39-9296-d24fa6a893a0,storeName-4380656,location-4380656,2001-08-02T00:00:00.000Z,createdBy.2lw4w@example.net,2016-04-30T00:00:00.000Z,modifiedBy.2lw4w@example.com
-4380657f-8ff0-42be-9b41-ccee1a2a8af6,storeName-4380657,location-4380657,2010-01-13T00:00:00.000Z,createdBy.2lw4x@example.net,2003-01-10T00:00:00.000Z,modifiedBy.2lw4x@example.net
-43806580-43d0-4f66-a414-a1fb808e1a9e,storeName-4380658,location-4380658,2023-11-02T00:00:00.000Z,createdBy.2lw4y@example.net,2011-01-20T00:00:00.000Z,modifiedBy.2lw4y@example.org
+13517327-3e35-40d7-a2e3-bc7d85790bf8,storeName-13517327,location-13517327,2019-01-18T00:00:00.000Z,createdBy.81q1b@example.net,2006-10-27T00:00:00.000Z,modifiedBy.81q1b@example.net
+13517328-905f-4e37-bad1-2ab1b06f9479,storeName-13517328,location-13517328,2006-08-09T00:00:00.000Z,createdBy.81q1c@example.com,2011-08-07T00:00:00.000Z,modifiedBy.81q1c@example.com
+13517329-d9bb-4463-8650-436926df2947,storeName-13517329,location-13517329,2003-06-09T00:00:00.000Z,createdBy.81q1d@example.net,2020-01-14T00:00:00.000Z,modifiedBy.81q1d@example.com
+13517330-166d-4a0e-b9e0-a8e80e860768,storeName-13517330,location-13517330,2006-08-02T00:00:00.000Z,createdBy.81q1e@example.net,2016-12-18T00:00:00.000Z,modifiedBy.81q1e@example.net
+13517331-cd88-4cc5-a9ad-c6700e3ca742,storeName-13517331,location-13517331,2002-03-24T00:00:00.000Z,createdBy.81q1f@example.net,2018-03-17T00:00:00.000Z,modifiedBy.81q1f@example.org

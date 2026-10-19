@@ -5,12 +5,12 @@ annotate service.Bill with @(
         Data : [
             {
                 $Type : 'UI.DataField',
-                Label : 'number',
+                Label : 'Number',
                 Value : number,
             },
             {
                 $Type : 'UI.DataField',
-                Label : 'amount',
+                Label : 'Amount',
                 Value : amount,
             },
         ],
@@ -21,6 +21,12 @@ annotate service.Bill with @(
             ID : 'GeneratedFacet1',
             Label : 'General Information',
             Target : '@UI.FieldGroup#GeneratedGroup',
+        },
+        {
+            $Type : 'UI.ReferenceFacet',
+            Label : 'Item Details',
+            ID : 'ItemDetails',
+            Target : '@UI.FieldGroup#ItemDetails',
         },
     ],
     UI.LineItem : [
@@ -44,10 +50,61 @@ annotate service.Bill with @(
             Value : transactionId.items.ID,
             Label : 'ID',
         },
+        {
+            $Type : 'UI.DataField',
+            Value : transactionId.items.quantity,
+            Label : 'Quantity',
+            Criticality : status.criticality,
+            CriticalityRepresentation : #WithIcon
+        },
+        {
+            $Type : 'UI.DataField',
+            Value : transactionId.items.status_code,
+            Label : 'Status',
+            Criticality : status.criticality
+        },
     ],
     UI.SelectionFields : [
         amount,
     ],
+    UI.HeaderInfo : {
+        TypeName : 'Bill',
+        TypeNamePlural : 'Bills',
+        Title : {
+            $Type : 'UI.DataField',
+            Value : transactionId.storeName,
+        },
+        Description : {
+            $Type : 'UI.DataField',
+            Value : 'Transactions',
+        },
+        TypeImageUrl : 'sap-icon://monitor-payments',
+    },
+    UI.FieldGroup #ItemDetails : {
+        $Type : 'UI.FieldGroupType',
+        Data : [
+            {
+                $Type : 'UI.DataField',
+                Value : transactionId.storeName,
+                Label : 'Store Name',
+            },
+            {
+                $Type : 'UI.DataField',
+                Value : transactionId.items.ID,
+                Label : 'ID',
+            },
+            {
+                $Type : 'UI.DataField',
+                Value : transactionId.items.itemName,
+                Label : 'Item Name',
+            },
+            {
+                $Type : 'UI.DataField',
+                Value : transactionId.items.quantity,
+                Label : 'Quantity',
+            }
+        ],
+    },
 );
 
 annotate service.Bill with {
@@ -73,6 +130,21 @@ annotate service.Bill with {
 };
 
 annotate service.Bill with {
-    amount @Common.Label : 'Total Amount'
+    amount @(
+        Common.Label : 'Total Amount',
+        Common.ValueList : {
+            $Type : 'Common.ValueListType',
+            CollectionPath : 'Bill',
+            Parameters : [
+                {
+                    $Type : 'Common.ValueListParameterInOut',
+                    LocalDataProperty : amount,
+                    ValueListProperty : 'amount',
+                },
+            ],
+            Label : 'Total Amount',
+        },
+        Common.ValueListWithFixedValues : true,
+    )
 };
 

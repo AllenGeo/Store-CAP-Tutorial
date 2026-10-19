@@ -9,6 +9,18 @@ entity Item : cuid, managed {
     itemName : String;
     store    : Association to Store;
     quantity : Integer;
+    status : Association to QuantityStatus;
+}
+
+entity QuantityStatus {
+    key code : QuantityStatusCode;
+    criticality : Integer;
+    displayText : String;
+}
+type QuantityStatusCode : String(1) enum{
+    Available = 'A';
+    Low_Stock = 'L';
+    Unavailable = 'U';
 }
 
 entity Store : cuid, managed {

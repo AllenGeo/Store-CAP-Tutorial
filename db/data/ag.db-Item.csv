@@ -1,11 +1,6 @@
-ID,itemName,store_ID,quantity,createdAt,createdBy,modifiedAt,modifiedBy
-25385968-9445-4737-9a0c-11380e448f23,itemName-25385968,43806543-b6bc-47a4-9887-3ec268955b3e,52,2004-02-15T00:00:00.000Z,createdBy.f43xs@example.com,2003-12-10T00:00:00.000Z,modifiedBy.f43xs@example.com
-25385969-4b5e-4b14-83ef-2477e00e2ece,itemName-25385969,4380655f-8ebd-4a23-8fe8-32e4b593a41f,43,2006-01-31T00:00:00.000Z,createdBy.f43xt@example.org,2007-12-03T00:00:00.000Z,modifiedBy.f43xt@example.org
-25385970-eea0-456e-9dc1-8b0e75fb8e3b,itemName-25385970,43806563-e4b2-4f39-9296-d24fa6a893a0,28,2013-11-22T00:00:00.000Z,createdBy.f43xu@example.com,2021-03-09T00:00:00.000Z,modifiedBy.f43xu@example.org
-25385971-1ab0-446c-af41-55d12c732c09,itemName-25385971,4380657f-8ff0-42be-9b41-ccee1a2a8af6,88,2014-06-08T00:00:00.000Z,createdBy.f43xv@example.org,2021-11-05T00:00:00.000Z,modifiedBy.f43xv@example.net
-25385972-2e33-4122-8d46-53b9ed02d2c1,itemName-25385972,43806580-43d0-4f66-a414-a1fb808e1a9e,40,2011-11-03T00:00:00.000Z,createdBy.f43xw@example.net,2001-08-22T00:00:00.000Z,modifiedBy.f43xw@example.net
-25385973-8c5b-48aa-900c-e55fabbf8979,itemName-25385973,43806494-3b95-4040-bf02-7550a51e3a7b,22,2021-11-02T00:00:00.000Z,createdBy.f43xx@example.org,2008-11-28T00:00:00.000Z,modifiedBy.f43xx@example.org
-25385974-25a5-4a93-8a5f-37c1a4373540,itemName-25385974,43806500-b58b-4e98-95b5-fb1f0b1b6859,80,2011-12-08T00:00:00.000Z,createdBy.f43xy@example.com,2002-09-21T00:00:00.000Z,modifiedBy.f43xy@example.com
-25385975-bc09-4382-a2b1-8d7c81e73f3b,itemName-25385975,4380651b-2cf3-4a5d-90ae-acad3bd8d6bf,46,2002-04-30T00:00:00.000Z,createdBy.f43xz@example.org,2011-07-11T00:00:00.000Z,modifiedBy.f43xz@example.net
-25385976-e307-495a-962d-c990fa89f813,itemName-25385976,4380652c-9825-48f2-b51c-bc46153baaee,66,2013-11-24T00:00:00.000Z,createdBy.f43y0@example.org,2023-04-06T00:00:00.000Z,modifiedBy.f43y0@example.net
-25385977-8e2b-41eb-ac73-7bd3328c3fc3,itemName-25385977,43806538-1a6b-4bda-a957-9f3946194ab4,83,2016-02-23T00:00:00.000Z,createdBy.f43y1@example.com,2006-11-01T00:00:00.000Z,modifiedBy.f43y1@example.net
+ID,itemName,store_ID,quantity,status_code,createdAt,createdBy,modifiedAt,modifiedBy
+16606134-04e4-4051-8c9b-925c9a9b2b3e,itemName-16606134,13517328-905f-4e37-bad1-2ab1b06f9479,37,A,2002-11-16T00:00:00.000Z,createdBy.9vxdi@example.org,2005-04-03T00:00:00.000Z,modifiedBy.9vxdi@example.com
+16606135-1c63-4f80-8be4-6a56250ca85f,itemName-16606135,13517329-d9bb-4463-8650-436926df2947,0,U,2017-10-03T00:00:00.000Z,createdBy.9vxdj@example.org,2004-12-09T00:00:00.000Z,modifiedBy.9vxdj@example.com
+16606136-bbea-401c-b0fb-0da461a95975,itemName-16606136,13517330-166d-4a0e-b9e0-a8e80e860768,3,L,2008-05-30T00:00:00.000Z,createdBy.9vxdk@example.net,2010-07-28T00:00:00.000Z,modifiedBy.9vxdk@example.com
+16606137-b427-4954-8fc2-0140fe80adb9,itemName-16606137,13517331-cd88-4cc5-a9ad-c6700e3ca742,4,L,2004-01-08T00:00:00.000Z,createdBy.9vxdl@example.net,2016-09-18T00:00:00.000Z,modifiedBy.9vxdl@example.com
+16606138-8a91-4e80-baa8-8abd615e5ced,itemName-16606138,13517327-3e35-40d7-a2e3-bc7d85790bf8,92,A,2020-08-03T00:00:00.000Z,createdBy.9vxdm@example.net,2014-12-28T00:00:00.000Z,modifiedBy.9vxdm@example.com
