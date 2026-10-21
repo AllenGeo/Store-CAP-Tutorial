@@ -6,3 +6,5 @@ service StoreService {
     entity Bill  as projection on db.Bill;
     entity QuantityStatus as projection on db.QuantityStatus;
 }
+
+annotate StoreService.Bill with @odata.draft.enabled;
