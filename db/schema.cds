@@ -1,6 +1,7 @@
 using {
     cuid,
-    managed
+    managed,
+    sap.common.Currencies
 } from '@sap/cds/common';
 
 namespace ag.db;
@@ -9,6 +10,8 @@ entity Item : cuid, managed {
     itemName : String;
     store    : Association to Store;
     quantity : Integer;
+    price    : Decimal(5, 2);
+    currency : Association to Currencies;
     status : Association to QuantityStatus;
 }
 

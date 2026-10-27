@@ -1,6 +1,6 @@
-ID,itemName,store_ID,quantity,status_code,createdAt,createdBy,modifiedAt,modifiedBy
-16606134-04e4-4051-8c9b-925c9a9b2b3e,itemName-16606134,13517328-905f-4e37-bad1-2ab1b06f9479,37,A,2002-11-16T00:00:00.000Z,createdBy.9vxdi@example.org,2005-04-03T00:00:00.000Z,modifiedBy.9vxdi@example.com
-16606135-1c63-4f80-8be4-6a56250ca85f,itemName-16606135,13517329-d9bb-4463-8650-436926df2947,0,U,2017-10-03T00:00:00.000Z,createdBy.9vxdj@example.org,2004-12-09T00:00:00.000Z,modifiedBy.9vxdj@example.com
-16606136-bbea-401c-b0fb-0da461a95975,itemName-16606136,13517330-166d-4a0e-b9e0-a8e80e860768,3,L,2008-05-30T00:00:00.000Z,createdBy.9vxdk@example.net,2010-07-28T00:00:00.000Z,modifiedBy.9vxdk@example.com
-16606137-b427-4954-8fc2-0140fe80adb9,itemName-16606137,13517331-cd88-4cc5-a9ad-c6700e3ca742,4,L,2004-01-08T00:00:00.000Z,createdBy.9vxdl@example.net,2016-09-18T00:00:00.000Z,modifiedBy.9vxdl@example.com
-16606138-8a91-4e80-baa8-8abd615e5ced,itemName-16606138,13517327-3e35-40d7-a2e3-bc7d85790bf8,92,A,2020-08-03T00:00:00.000Z,createdBy.9vxdm@example.net,2014-12-28T00:00:00.000Z,modifiedBy.9vxdm@example.com
+ID,itemName,store_ID,quantity,price,currency_code,status_code,createdAt,createdBy,modifiedAt,modifiedBy
+16606134-04e4-4051-8c9b-925c9a9b2b3e,itemName-16606134,13517328-905f-4e37-bad1-2ab1b06f9479,37,12.4,INR,A,2002-11-16T00:00:00.000Z,createdBy.9vxdi@example.org,2005-04-03T00:00:00.000Z,modifiedBy.9vxdi@example.com
+16606135-1c63-4f80-8be4-6a56250ca85f,itemName-16606135,13517329-d9bb-4463-8650-436926df2947,0,12.4,INR,U,2017-10-03T00:00:00.000Z,createdBy.9vxdj@example.org,2004-12-09T00:00:00.000Z,modifiedBy.9vxdj@example.com
+16606136-bbea-401c-b0fb-0da461a95975,itemName-16606136,13517330-166d-4a0e-b9e0-a8e80e860768,3,12.4,INR,L,2008-05-30T00:00:00.000Z,createdBy.9vxdk@example.net,2010-07-28T00:00:00.000Z,modifiedBy.9vxdk@example.com
+16606137-b427-4954-8fc2-0140fe80adb9,itemName-16606137,13517331-cd88-4cc5-a9ad-c6700e3ca742,4,12.4,INR,L,2004-01-08T00:00:00.000Z,createdBy.9vxdl@example.net,2016-09-18T00:00:00.000Z,modifiedBy.9vxdl@example.com
+16606138-8a91-4e80-baa8-8abd615e5ced,itemName-16606138,13517327-3e35-40d7-a2e3-bc7d85790bf8,92,12.4,INR,A,2020-08-03T00:00:00.000Z,createdBy.9vxdm@example.net,2014-12-28T00:00:00.000Z,modifiedBy.9vxdm@example.com

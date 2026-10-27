@@ -13,6 +13,16 @@ annotate service.Bill with @(
                 Label : 'Amount',
                 Value : amount,
             },
+            {
+                $Type : 'UI.DataField',
+                Value : transactionId.items.currency_code,
+                Label : 'Currency',
+            },
+            {
+                $Type : 'UI.DataField',
+                Value : transactionId.items.price,
+                Label : 'Price',
+            },
         ],
     },
     UI.Facets : [
@@ -147,4 +157,21 @@ annotate service.Bill with {
         Common.ValueListWithFixedValues : true,
     )
 };
+
+annotate service.Item with {
+    currency @(
+        Common.ValueList : {
+            $Type : 'Common.ValueListType',
+            CollectionPath : 'Currencies',
+            Parameters : [
+                {
+                    $Type : 'Common.ValueListParameterInOut',
+                    LocalDataProperty : currency_code,
+                    ValueListProperty : 'code',
+                },
+            ],
+            Label : 'Currency',
+        },
+        Common.ValueListWithFixedValues : true,
+)};
 
