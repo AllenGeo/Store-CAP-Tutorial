@@ -39,4 +39,10 @@ entity Bill : cuid, managed {
         number        : Integer;
     key transactionId : Association to Store;
         amount        : Decimal(8, 2);
+        transactionType : Association to TransactionType;
+}
+
+entity TransactionType {
+    key code : String;
+        description : String;
 }

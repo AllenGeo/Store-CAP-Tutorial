@@ -23,6 +23,11 @@ annotate service.Bill with @(
                 Value : transactionId.items.price,
                 Label : 'Price',
             },
+            {
+                $Type : 'UI.DataField',
+                Value : transactionType_code,
+                Label : 'Transaction Type',
+            },
         ],
     },
     UI.Facets : [
@@ -72,6 +77,11 @@ annotate service.Bill with @(
             Value : transactionId.items.status_code,
             Label : 'Status',
             Criticality : status.criticality
+        },
+        {
+            $Type : 'UI.DataField',
+            Value : transactionType_code,
+            Label : 'Transaction Type',
         },
     ],
     UI.SelectionFields : [
@@ -174,4 +184,29 @@ annotate service.Item with {
         },
         Common.ValueListWithFixedValues : true,
 )};
+
+annotate service.Bill with {
+    transactionType @(
+        Common.ValueList : {
+            $Type : 'Common.ValueListType',
+            CollectionPath : 'TransactionType',
+            Parameters : [
+                {
+                    $Type : 'Common.ValueListParameterInOut',
+                    LocalDataProperty : transactionType_code,
+                    ValueListProperty : 'description',
+                },
+            ],
+            Label : 'TransactionTypeVH',
+        },
+        )
+};
+
+annotate service.TransactionType with {
+    code @Common.Text : description
+};
+
+annotate service.TransactionType with {
+    description @Common.Text : code
+};
 
